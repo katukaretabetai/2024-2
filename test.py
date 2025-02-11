@@ -54,6 +54,3 @@ class TestCalc(unittest.TestCase):
     def test_invalid_negative_b(self):
         self.assertEqual(calc(10, -5), -1)
 
-
-if __name__ == '__main__':
-    unittest.main()
